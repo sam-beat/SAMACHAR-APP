@@ -33,10 +33,11 @@ public class categoryAdapter extends RecyclerView.Adapter<categoryAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull categoryAdapter.ViewHolder holder, int position) {
       categoryModal categorymodal = categoryModals.get(position);
+
       holder.categoryTextView.setText(categorymodal.getCategory());
       holder.itemView.setOnClickListener(new View.OnClickListener() {
           @Override
-          public void onClick(View view) {
+          public void onClick(View view){
               categonClickInterface.oncategoryclick(holder.getAdapterPosition());
           }
       });
@@ -46,6 +47,7 @@ public class categoryAdapter extends RecyclerView.Adapter<categoryAdapter.ViewHo
     public int getItemCount() {
         return categoryModals.size();
     }
+
     public interface categoryOnClickInterface {
         void oncategoryclick(int position);
     }

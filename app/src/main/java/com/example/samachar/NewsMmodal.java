@@ -1,24 +1,27 @@
 package com.example.samachar;
 
+import androidx.annotation.NonNull;
+
 import java.util.ArrayList;
 
-public class NewsMmodal<Arraylist> {
-    private  int totalResult;
+public class NewsMmodal {
     private String status;
+    private  int totalResults;
+
     private ArrayList<Articles> articles;
 
     public NewsMmodal(int totalResult, String status, ArrayList<Articles> articles) {
-        this.totalResult = totalResult;
+        this.totalResults = totalResult;
         this.status = status;
         this.articles = articles;
     }
 
     public int getTotalResult() {
-        return totalResult;
+        return totalResults;
     }
 
     public void setTotalResult(int totalResult) {
-        this.totalResult = totalResult;
+        this.totalResults = totalResult;
     }
 
     public String getStatus() {
@@ -30,6 +33,8 @@ public class NewsMmodal<Arraylist> {
     }
 
     public ArrayList<Articles> getArticles() {
+
+
         return articles;
     }
 
