@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Placement Preparation/Samachar/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Placement Preparation/Samachar/app/src/main/res/layout/activity_news_detail.xml" value="0.16983695652173914" />
+        <entry key="..\:/Placement Preparation/Samachar/app/src/main/res/layout/activity_news_detail.xml" value="0.264" />
         <entry key="..\:/Placement Preparation/Samachar/app/src/main/res/layout/categories.xml" value="0.1" />
         <entry key="..\:/Placement Preparation/Samachar/app/src/main/res/layout/item_categories.xml" value="0.1" />
         <entry key="..\:/Placement Preparation/Samachar/app/src/main/res/layout/item_category.xml" value="0.1" />
@@ -21,7 +21,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.1" />
+        <option name="scale" value="0.264" />
       </ProjectState>
     </option>
   </component>
